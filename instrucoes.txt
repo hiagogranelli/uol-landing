@@ -1,0 +1,29 @@
+﻿Instruções para entrega dos testes
+
+__Homepage Responsiva
+
+- Seguem os layouts: DESKTOP (maior que 992px) lp_uol_ec_nfl_2018.jpg e MOBILE (menor que 768px) lp_uol_ec_nfl_2018_mobile.jpg;
+- Arquivo index.html como versão base já com a chamada do Bootstrap e da fonte UOL;
+- Algumas imagens já estao recortadas na pasta "layouts/material";
+
+
+__E-mail MKT
+
+- Layout (email_blackfriday_pp_uol_esporte_clube.jpg) que deverá funcionar nos principais serviços de e-mail do mercado (Outlook, Gmail, UOL/BOL, Yahoo e Hotmail);
+- Usar tabela para a diagramação/posicionamento e não usar imagens de background;
+- Dica: uso do putsmail.com para os testes;
+
+
+ENTREGA
+
+Preferência um repositório do candidato no github, ou um pacote zipado por e-mail.
+
+
+OBS:
+- Uso de SASS (scss) optional;
+- Está disponivel um arquivo json: http://jsuol.com.br/p/pp/teste-front/data.json caso o candidato queira fazer uma chamada dinâmica para popular os dados de uma parte do layout (listagem de icones, texto e link abaixo na imagem principal), simulando o cosumo de uma API. Item opcional tambem;
+- Organização e performace do código serão avaliados;
+- Arquivos confidenciais que nao poderão ser usados para outros fins;
+
+
+

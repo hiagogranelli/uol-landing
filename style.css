@@ -1,0 +1,403 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.top-bar {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffdc05;
+}
+
+.header {
+  width: 100%;
+  height: 75vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-size: cover;
+  background-image: url("layouts/material/bg-top.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.header .wrapper {
+  width: 100%;
+  margin: 50px auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 1200px;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 992px) {
+  .header .wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
+.header .wrapper .infos {
+  text-align: center;
+}
+
+.header .wrapper .infos h2 {
+  color: #fff;
+  margin: 20px 0 0;
+  font-size: 46px;
+  font-weight: bold;
+}
+
+.header .wrapper .infos h3 {
+  color: #fff;
+  margin: 10px;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.header .wrapper .infos p {
+  color: #fff;
+  font-size: 16px;
+}
+
+.header .wrapper .infos .teams {
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .wrapper .infos .teams .first-team,
+.header .wrapper .infos .teams .second-team {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header .wrapper .infos .teams .game-info {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header .wrapper .infos .teams .game-info span {
+  padding: 4px;
+  font-weight: bold;
+  background-color: red;
+}
+
+.header .wrapper .infos .teams .game-info i {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header .wrapper .infos .buy-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header .wrapper .infos .buy-info button {
+  color: #000;
+  margin: 30px 0 10px;
+  border: none;
+  padding: 10px 5px;
+  font-weight: bold;
+  background-color: #ffdc05;
+}
+
+.header .wrapper .infos .buy-info span {
+  color: #fff;
+}
+
+.title-main {
+  text-align: center;
+}
+
+.main {
+  width: 1200px;
+  height: 50vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media (max-width: 992px) {
+  .main {
+    width: 100%;
+    height: initial;
+    padding: 0 15px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+.main .first-content {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .main .first-content {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+}
+
+.main .first-content .channel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.main .first-content .channel img {
+  width: 200px;
+}
+
+.main .first-content .leagues {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f1f3f4;
+  padding: 10px;
+}
+
+.main .first-content .leagues img {
+  width: 15%;
+}
+
+.main .first-content .available {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0 0 8px 8px;
+  background-color: #ddd;
+}
+
+.main .first-content .available img {
+  width: 12%;
+}
+
+.main .second-content {
+  width: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .main .second-content {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+}
+
+.main .second-content .channel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 8px 8px 0 0;
+}
+
+.main .second-content .channel img {
+  width: 200px;
+}
+
+.main .second-content .leagues {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background-color: #f1f3f4;
+}
+
+.main .second-content .leagues img {
+  width: 15%;
+}
+
+.main .second-content .available {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 0 0 8px 8px;
+  background-color: #ddd;
+}
+
+.main .second-content .available img {
+  width: 12%;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-color: #333333;
+}
+
+@media (max-width: 992px) {
+  .footer {
+    padding: 0 10px;
+  }
+}
+
+.footer .wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+@media (max-width: 992px) {
+  .footer .wrapper {
+    width: 100%;
+  }
+}
+
+.footer .first-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer .first-content img {
+  width: 70px;
+  margin: 50px 0 10px;
+}
+
+.footer .second-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 50px;
+}
+/*# sourceMappingURL=style.css.map */
